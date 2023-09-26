@@ -16,7 +16,6 @@ export default function SectionLeft() {
 
                                 <li className="glide__slide"><img src="img/PastEvents/1.jpg" /></li>
                                 <li className="glide__slide"><img src="img/PastEvents/2.jpg" /></li>
-                                <li className="glide__slide"><img src="img/PastEvents/3.jpg" /></li>
                                 <li className="glide__slide"><img src="img/PastEvents/4.jpg" /></li>
                                 <li className="glide__slide"><img src="img/PastEvents/5.jpg" /></li>
                                 <li className="glide__slide"><img src="img/PastEvents/6.jpg" /></li>
@@ -33,7 +32,6 @@ export default function SectionLeft() {
                             <button className="glide__bullet" data-glide-dir="=4"></button>
                             <button className="glide__bullet" data-glide-dir="=5"></button>
                             <button className="glide__bullet" data-glide-dir="=6"></button>
-                            <button className="glide__bullet" data-glide-dir="=7"></button>
 
                         </div>
                     </div>
