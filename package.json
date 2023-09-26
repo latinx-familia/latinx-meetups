@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "@next/font": "^13.5.3",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "sass": "^1.68.0"
   },
   "devDependencies": {
     "eslint": "latest",
