@@ -8,8 +8,8 @@ export default function SectionRight() {
 
                 <div className="section-description">
                     <div className="section-description header">
-                        <h1>LATINX INVESTORS, SUPPORTING EACH OTHER TO THRIVE</h1>
-                        <h2>From aspiring investors to experienced GPs; working at the most established Silicon Valley venture funds, and at non-traditional, emerging firms.</h2>
+                        <h1>LATINX FOUNDERS AND INVESTORS, SUPPORTING EACH OTHER TO THRIVE</h1>
+                        <h2>From aspiring investors to experienced GPs; working at the most established Silicon Valley venture funds, or at non-traditional, or emerging firms.</h2>
                         <p></p>
                         <h3><b>We are the global open source community of Latine Investors</b></h3>
                     </div>
@@ -33,10 +33,13 @@ export default function SectionRight() {
                         <div className="glide__track" data-glide-el="track">
                             <ul className="glide__slides">
 
-                                <li className="glide__slide"><img src="img/PastEvents/5.jpg" />1</li>
-                                <li className="glide__slide"><img src="img/PastEvents/6.jpg" />1</li>
-                                <li className="glide__slide"><img src="img/PastEvents/7.jpg" />1</li>
-                                <li className="glide__slide"><img src="img/PastEvents/8.jpg" />1</li>
+                                <li className="glide__slide"><img src="img/PastEvents/9.jpg" />1</li>
+                                <li className="glide__slide"><img src="img/PastEvents/10.jpg" />1</li>
+                                <li className="glide__slide"><img src="img/PastEvents/11.jpg" />1</li>
+                                <li className="glide__slide"><img src="img/PastEvents/12.jpg" />1</li>
+                                <li className="glide__slide"><img src="img/PastEvents/13.jpg" />1</li>
+                                <li className="glide__slide"><img src="img/PastEvents/14.jpg" />1</li>
+                                <li className="glide__slide"><img src="img/PastEvents/15.jpg" />1</li>
                                 
                             </ul>
                         </div>
@@ -47,7 +50,10 @@ export default function SectionRight() {
                             <button className="glide__bullet" data-glide-dir="=1"></button>
                             <button className="glide__bullet" data-glide-dir="=2"></button>
                             <button className="glide__bullet" data-glide-dir="=3"></button>
-
+                            <button className="glide__bullet" data-glide-dir="=4"></button>
+                            <button className="glide__bullet" data-glide-dir="=5"></button>
+                            <button className="glide__bullet" data-glide-dir="=6"></button>
+                            <button className="glide__bullet" data-glide-dir="=7"></button>
                         </div>
                     </div>
                 </div>

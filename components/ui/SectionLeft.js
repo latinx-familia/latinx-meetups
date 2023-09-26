@@ -15,10 +15,13 @@ export default function SectionLeft() {
                         <div className="glide__track" data-glide-el="track">
                             <ul className="glide__slides">
 
-                                <li className="glide__slide"><img src="img/PastEvents/1.jpg" />1</li>
-                                <li className="glide__slide"><img src="img/PastEvents/2.jpg" />2</li>
-                                <li className="glide__slide"><img src="img/PastEvents/3.jpg" />3</li>
-                                <li className="glide__slide"><img src="img/PastEvents/4.jpg" />4</li>
+                                <li className="glide__slide"><img src="img/PastEvents/1.jpg" /></li>
+                                <li className="glide__slide"><img src="img/PastEvents/2.jpg" /></li>
+                                <li className="glide__slide"><img src="img/PastEvents/3.jpg" /></li>
+                                <li className="glide__slide"><img src="img/PastEvents/4.jpg" /></li>
+                                <li className="glide__slide"><img src="img/PastEvents/5.jpg" /></li>
+                                <li className="glide__slide"><img src="img/PastEvents/6.jpg" /></li>
+                                <li className="glide__slide"><img src="img/PastEvents/8.jpg" /></li>
                             </ul>
                         </div>
 
@@ -28,6 +31,10 @@ export default function SectionLeft() {
                             <button className="glide__bullet" data-glide-dir="=1"></button>
                             <button className="glide__bullet" data-glide-dir="=2"></button>
                             <button className="glide__bullet" data-glide-dir="=3"></button>
+                            <button className="glide__bullet" data-glide-dir="=4"></button>
+                            <button className="glide__bullet" data-glide-dir="=5"></button>
+                            <button className="glide__bullet" data-glide-dir="=6"></button>
+                            <button className="glide__bullet" data-glide-dir="=7"></button>
 
                         </div>
                     </div>
