@@ -12,7 +12,7 @@ export default function SectionRight() {
                         <h1>LATINX FOUNDERS AND INVESTORS, SUPPORTING EACH OTHER TO THRIVE</h1>
                         <h2>From aspiring investors to experienced GPs; working at the most established Silicon Valley venture funds, or at non-traditional, or emerging firms.</h2>
                         <p></p>
-                        <h3><b>We are the global open source community of Latine founders and funders</b></h3>
+                        <h3><b>We are the global open source community of Latinx founders and funders</b></h3>
                     </div>
                     <div className="section-description content">
                         <div className="button-container">
