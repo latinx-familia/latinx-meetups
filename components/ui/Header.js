@@ -7,7 +7,7 @@ export default function Header () {
             <header>
                 <div class="navbar">
                     <Link href="/">
-                    <div class="logo"></div>
+                        <div class="logo"></div>
                     </Link>
                     <div class="navmenu">
                         <Link href="https://chat.whatsapp.com/BquU18oQxMu9m7hf8gdX5S" target="_blank">
