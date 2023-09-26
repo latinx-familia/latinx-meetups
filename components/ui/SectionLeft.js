@@ -43,7 +43,7 @@ export default function SectionLeft() {
                     <div className="section-description header">
                         <h1>FROM SEED TO IPO, TOGETHER WE ARE #STRONG</h1>
                         <h2>Founders from our community already raised over $400M in venture capital in aggregate.</h2>
-                        <p>The magic of attending a Latinx meetup is that people came together to listen, connect, and grow. No one want to impress no one. Not needing to pitch is the ultimate flex.
+                        <p>The magic of attending a Latinx meetup is that people come together to listen, connect, and grow. No one wants to impress anyone. Not needing to pitch is the ultimate flex.
                         </p>
                         <h3><b>Latinx founders supporting each other to thrive.</b></h3>
                     </div>
