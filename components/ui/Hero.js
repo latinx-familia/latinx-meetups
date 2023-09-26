@@ -10,7 +10,7 @@ export default function Hero () {
                 
                 <div class="button-container">
                     <Link href="/">
-                        <button class="scroll-btn hero-btn" id="rent-sections"><Icon class="boat-icon boat-animation" icon="mdi:city" />
+                        <button class="scroll-btn hero-btn"><Icon icon="mdi:city" />
                             SIGN UP IN YOUR CITY
                         </button>
                     </Link>

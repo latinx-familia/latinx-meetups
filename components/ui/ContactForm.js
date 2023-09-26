@@ -17,7 +17,7 @@ export default function ContactForm() {
                                 placeholder="Leave us a message..." required></textarea>
                         </div>
                     </div>
-                    <button type="submit" className="book-btn booking">SEND YOUR REQUEST</button>
+                    <button type="submit" className="scroll-btn hero-btn">SEND YOUR REQUEST</button>
                 </form>
             </section>
         </>

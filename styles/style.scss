@@ -169,7 +169,7 @@ header {
 
 
 
-.hero > h2 {
+.hero > h2, .general-description > h2 {
     padding-top: 0.5rem;
     padding-left: 20%;
     padding-right: 20%;
@@ -189,7 +189,7 @@ header {
     justify-content: unset;
 }
 
-.location-description {
+.general-description {
     color:rgba(var(--light-color));
     min-height: 48vh;
     display: flex;
@@ -201,6 +201,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color:rgba(var(--dark-color));
 }
 
 .hero-btn {
@@ -236,7 +237,7 @@ header {
 }
 
 .secondary-btn {
-    background-color: transparent;
+    background-color: rgba(var(--main-color));
     border: 1px solid   rgba(var(--dark-color));
     color:rgba(var(--dark-color));
     white-space: nowrap;
@@ -424,7 +425,7 @@ header {
 }
 
 .arrow-down {
-    height: 18vh;
+    
     position: relative;
     width: 100%;
 }

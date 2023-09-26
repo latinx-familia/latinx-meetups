@@ -6,7 +6,7 @@ import { Inter } from 'next/font/google'
 import Header from "../components/ui/Header"
 import Footer from "../components/ui/Footer"
 import Hero from "../components/ui/Hero"
-import Glide from "../components/Glide"
+import Link from "next/link";
 import ContactForm from "../components/ui/ContactForm"
 import SectionLeft from "../components/ui/SectionLeft"
 import SectionRight from "../components/ui/SectionRight"
@@ -36,16 +36,15 @@ export default function Home() {
             <SectionLeft />
             <SectionRight />
     
-            <section className="location-description" id="stay">
-                <h2>Welcome</h2>
-                <h3>
-                    <p>Private boats safely located at marinas to stay in your next vacation.</p>
-                    <p>Based in Isla Mujeres, Mexico.</p>
-                </h3>
-                <h2 className="subtitle-description">Experience living on a boat for a couple of nights</h2>
-                <a href="#first-section-couples">
-                    <div className="arrow-down"></div>
-                </a>
+            <section className="general-description" id="stay">
+                <h2><p>Latinx Tech Group is a distributed Whatsapp community of VC and Angel investors and Startup Founders all over the world supporting each other to thrive.</p>
+                <p>Founded by Latinx founders in Silicon Valley in 2021, we are currently +500 members from 35 cities and want to invite you to join.</p></h2>
+                <div class="arrow-down"></div>
+                <Link href="https://chat.whatsapp.com/BquU18oQxMu9m7hf8gdX5S" target="_blank">
+                    <button class="secondary-btn hero-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
+                        Join the WhatsApp Community
+                    </button>
+                </Link>
             </section>
 
             <ContactForm />
