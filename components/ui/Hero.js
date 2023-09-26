@@ -4,13 +4,13 @@ import { Icon } from '@iconify/react';
 export default function Hero () {
     return(
        <>
-        <section class="hero">
+        <section className="hero">
                 <h1>Meet fellow founders and investors AFK</h1>
                 <h2>Worldwide community meetups for latinx VC investors and startup founders. Join the movement 👊🔥</h2>
                 
-                <div class="button-container">
+                <div className="button-container">
                     <Link href="/">
-                        <button class="scroll-btn hero-btn"><Icon icon="mdi:city" />
+                        <button className="scroll-btn hero-btn"><Icon icon="mdi:city" />
                             SIGN UP IN YOUR CITY
                         </button>
                     </Link>

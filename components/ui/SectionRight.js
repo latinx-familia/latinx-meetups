@@ -15,9 +15,9 @@ export default function SectionRight() {
                         <h3><b>We are the global open source community of Latine founders and funders</b></h3>
                     </div>
                     <div className="section-description content">
-                        <div class="button-container">
+                        <div className="button-container">
                             <Link href="/">
-                                <button class="scroll-btn hero-btn" id="rent-sections"><Icon class="boat-icon boat-animation" icon="mdi:city" />
+                                <button className="scroll-btn hero-btn" id="rent-sections"><Icon className="boat-icon boat-animation" icon="mdi:city" />
                                     SIGN UP IN YOUR CITY
                                 </button>
                             </Link>
