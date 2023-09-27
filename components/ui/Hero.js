@@ -9,7 +9,7 @@ export default function Hero () {
                 <h2>Worldwide community meetups for latinx VC investors and startup founders. Join the movement 👊🔥</h2>
                 
                 <div className="button-container">
-                    <Link href="/">
+                    <Link href="https://forms.gle/1w8h93u1m14iY3YF7">
                         <button className="scroll-btn hero-btn"><Icon icon="mdi:city" />
                             SIGN UP IN YOUR CITY
                         </button>
