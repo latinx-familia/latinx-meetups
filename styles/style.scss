@@ -553,7 +553,9 @@ footer {
     .navbar {
         width: 130px;
 
-
+    .navmenu {
+        display: none;
+    }
     }
 
 .hero {
@@ -561,8 +563,9 @@ footer {
     }
 
     .hero > h2, .general-description > h2 {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: clamp(1.8rem, 1.5vw, 3.2rem);
         
     }
 
@@ -578,6 +581,22 @@ footer {
 
     .section-description {
         margin: 0 2rem;
+    }
+
+    .section-description > h1, .section-description > h2, .section-description > h3 {
+        text-align: center;
+        margin: 1rem 0;
+        margin-top: rem;
+        line-height: 3rem;
+    }
+
+    .section-description > h3 {
+        line-height: 1.5rem;
+    }
+
+    .section-description > .button-container {
+        align-items: center;
+        justify-content: center;
     }
 
     .icons-row {
@@ -669,7 +688,7 @@ footer {
         gap: 40%;
     }
 
-    .secondary-btn {
+    header > .secondary-btn {
         display: none;
     }
 
