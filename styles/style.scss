@@ -245,7 +245,7 @@ header {
 }
 
 .secondary-btn:hover {
-    border: none;
+    border: 1px transparent;
     background-color: rgba(var(--light-color));
     box-shadow: 0 0 7px rgba(var(--dark-color)),
                 0 0 10px rgba(var(--light-color)),
@@ -545,6 +545,32 @@ footer {
 
 @media screen and (max-width: 1280px) {
 
+    header {
+    padding: 0;
+    }
+
+    .navbar {
+        width: max-content;
+
+
+    }
+
+.hero {
+        padding-top: 50px;
+    }
+
+    .hero > h2, .general-description > h2 {
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+
+    h1, h2 {
+        
+        margin: 1.5rem;
+
+    }
+
     .book-btn {
         width: 84% !important;
     }
@@ -566,17 +592,15 @@ footer {
         left: 54%;
     }
 
-    .logo {
-        width: 8%;
-    }
-
+    
+    
     .nav-container {
         gap: 60%;
     }
 }
 
 @media screen and (max-width: 880px) {
-
+    
     .book-btn {
         width: 94% !important;
     }
@@ -621,10 +645,6 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    .logo {
-        width: 10%;
     }
 
     .nav-container {
@@ -681,10 +701,6 @@ footer {
         width: 80%;
     }
 
-    .logo {
-        width: 14%;
-    }
-
 }
 
 @media screen and (max-width: 400px) {
@@ -711,10 +727,6 @@ footer {
 
     .section p {
         padding-left: 10px;
-    }
-
-    .logo {
-        width: 18%;
     }
 }
 
