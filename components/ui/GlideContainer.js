@@ -25,15 +25,13 @@ export default function GlideContainer() {
                     </div>
                     <div className="glide__track" data-glide-el="track">
                         <ul className="glide__slides">
-
-                            <li className="glide__slide"><img src="img/PastEvents/9.jpg" /></li>
-                            <li className="glide__slide"><img src="img/PastEvents/10.jpg" /></li>
-                            <li className="glide__slide"><img src="img/PastEvents/11.jpg" /></li>
-                            <li className="glide__slide"><img src="img/PastEvents/12.jpg" /></li>
-                            <li className="glide__slide"><img src="img/PastEvents/13.jpg" /></li>
-                            <li className="glide__slide"><img src="img/PastEvents/14.jpg" /></li>
-                            <li className="glide__slide"><img src="img/PastEvents/15.jpg" /></li>
-                            
+                            <li className="glide__slide"><Image src="img/PastEvents/9.jpg" alt="Latinx Meetup" /></li>
+                            <li className="glide__slide"><Image src="img/PastEvents/10.jpg" alt="Latinx Meetup" /></li>
+                            <li className="glide__slide"><Image src="img/PastEvents/11.jpg" alt="Latinx Meetup" /></li>
+                            <li className="glide__slide"><Image src="img/PastEvents/12.jpg" alt="Latinx Meetup" /></li>
+                            <li className="glide__slide"><Image src="img/PastEvents/13.jpg" alt="Latinx Meetup" /></li>
+                            <li className="glide__slide"><Image src="img/PastEvents/14.jpg" alt="Latinx Meetup" /></li>
+                            <li className="glide__slide"><Image src="img/PastEvents/15.jpg" alt="Latinx Meetup" /></li>
                         </ul>
                     </div>
 

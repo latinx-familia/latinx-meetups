@@ -1,5 +1,7 @@
 import { Icon } from '@iconify/react';
 import Link from "next/link";
+import Image from 'next/image'
+
 
 export default function SectionLeft() {
     return(
@@ -13,13 +15,12 @@ export default function SectionLeft() {
                         </div>
                         <div className="glide__track" data-glide-el="track">
                             <ul className="glide__slides">
-
-                                <li className="glide__slide"><img src="img/PastEvents/1.jpg" /></li>
-                                <li className="glide__slide"><img src="img/PastEvents/2.jpg" /></li>
-                                <li className="glide__slide"><img src="img/PastEvents/4.jpg" /></li>
-                                <li className="glide__slide"><img src="img/PastEvents/5.jpg" /></li>
-                                <li className="glide__slide"><img src="img/PastEvents/6.jpg" /></li>
-                                <li className="glide__slide"><img src="img/PastEvents/8.jpg" /></li>
+                                <li className="glide__slide"><Image src="img/PastEvents/1.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image src="img/PastEvents/2.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image src="img/PastEvents/4.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image src="img/PastEvents/5.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image src="img/PastEvents/6.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image src="img/PastEvents/8.jpg" alt="Latinx Meetup" /></li>
                             </ul>
                         </div>
 
