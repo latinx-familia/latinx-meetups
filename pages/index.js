@@ -17,7 +17,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
         <>
-            <Head />
+            <Head>
+              <title>Latinx Meetups</title>
+            </Head>
             <Header />
             <Hero />
             <SectionLeft />
