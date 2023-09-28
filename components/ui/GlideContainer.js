@@ -1,5 +1,6 @@
 import React, { useLayoutEffect } from "react";
 import Glide from '@glidejs/glide';
+import Image from 'next/image'
 
 export default function GlideContainer() {
     useLayoutEffect(() => {
