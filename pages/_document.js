@@ -9,9 +9,6 @@ class WebDocument extends Document {
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="description" content="Worldwide community meetups for latinx VC investors and startup founders. Join the movement 👊🔥" />
-          
-          <title>Latinx Meetups</title>
-
           <meta property="og:url" content="https://latinxmeetups.com" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Latinx Meetups" />
