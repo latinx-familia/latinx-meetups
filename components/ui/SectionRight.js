@@ -14,7 +14,7 @@ export default function SectionRight() {
                         <p></p>
                         <h3><b>We are the global open source community of Latinx founders and funders</b></h3>
                     </div>
-                    <div className="section-description content">
+                    <div className="section-description content" id="toggle-navbar">
                         <div className="button-container">
                             <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
                                 <button className="scroll-btn hero-btn" id="rent-sections"><Icon className="boat-icon boat-animation" icon="mdi:city" />
