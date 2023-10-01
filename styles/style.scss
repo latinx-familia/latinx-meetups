@@ -414,10 +414,11 @@ header {
     margin-left: 7rem;
 }
 
-.glide-container img {
+.glide__slide {
+    position: relative;
+    overflow: hidden;
     height: 700px;
     width: 550px;
-    object-fit: cover;
 }
 
 .slide-left {
@@ -538,7 +539,7 @@ footer {
         width: 400px;
     }
 
-    .glide-container img {
+    .glide__slide {
         height: 600px;
         width: 400px;
     }
@@ -638,7 +639,7 @@ footer {
         height: auto;
     }
 
-    .glide-container img {
+    .glide__slide {
         width: 100%;
     }
 

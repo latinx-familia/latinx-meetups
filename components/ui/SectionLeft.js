@@ -15,12 +15,12 @@ export default function SectionLeft() {
                         </div>
                         <div className="glide__track" data-glide-el="track">
                             <ul className="glide__slides">
-                                <li className="glide__slide"><Image src="img/PastEvents/1.jpg" alt="Latinx Meetup" /></li>
-                                <li className="glide__slide"><Image src="img/PastEvents/2.jpg" alt="Latinx Meetup" /></li>
-                                <li className="glide__slide"><Image src="img/PastEvents/4.jpg" alt="Latinx Meetup" /></li>
-                                <li className="glide__slide"><Image src="img/PastEvents/5.jpg" alt="Latinx Meetup" /></li>
-                                <li className="glide__slide"><Image src="img/PastEvents/6.jpg" alt="Latinx Meetup" /></li>
-                                <li className="glide__slide"><Image src="img/PastEvents/8.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image layout="fill" objectFit="cover" src="/img/PastEvents/1.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image layout="fill" objectFit="cover" src="/img/PastEvents/2.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image layout="fill" objectFit="cover" src="/img/PastEvents/4.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image layout="fill" objectFit="cover" src="/img/PastEvents/5.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image layout="fill" objectFit="cover" src="/img/PastEvents/6.jpg" alt="Latinx Meetup" /></li>
+                                <li className="glide__slide"><Image layout="fill" objectFit="cover" src="/img/PastEvents/8.jpg" alt="Latinx Meetup" /></li>
                             </ul>
                         </div>
 
