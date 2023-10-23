@@ -181,13 +181,13 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-
+    flex-direction: row;
+    column-gap: 30px;
 }
 
 .section-description > .button-container {
     align-items: unset;
-    justify-content: unset;
+    justify-content: flex-start;
 }
 
 .general-description {
@@ -642,7 +642,12 @@ footer {
     .glide__slide {
         width: 100%;
     }
-
+    
+    .button-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
     .form-questions {
         flex-direction: column;
         align-items: center;

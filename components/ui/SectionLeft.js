@@ -49,8 +49,13 @@ export default function SectionLeft() {
                     <div className="section-description content">
                         <div className="button-container">
                             <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
-                                <button className="scroll-btn hero-btn" id="rent-sections"><Icon className="boat-icon boat-animation" icon="mdi:city" />
-                                    SIGN UP IN YOUR CITY
+                                <button className="secondary-btn hero-btn"><Icon icon="mdi:city" />
+                                    SUGGEST A CITY
+                                </button>
+                            </Link>
+                            <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
+                                <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
+                                    RSVP FOR NOV 22
                                 </button>
                             </Link>
                         </div>
