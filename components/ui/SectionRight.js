@@ -16,7 +16,7 @@ export default function SectionRight() {
                     </div>
                     <div className="section-description content" id="toggle-navbar">
                         <div className="button-container">
-                            <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
+                            <Link href="https://app.getriver.io/latinx-tech-group/events" target="_blank">
                                 <button className="secondary-btn hero-btn"><Icon icon="mdi:city" />
                                     SUGGEST A CITY
                                 </button>
