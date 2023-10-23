@@ -205,6 +205,10 @@ header {
     background-color:rgba(var(--dark-color));
 }
 
+.general-description > a > .secondary-btn {
+    background-color:rgba(var(--main-color));
+}
+
 .hero-btn {
     font-size: clamp(1rem, 1.1rem, 1.4rem);
     font-weight: 500;
@@ -238,8 +242,8 @@ header {
 }
 
 .secondary-btn {
-    background-color: rgba(var(--main-color));
-    border: 1px solid   rgba(var(--dark-color));
+    background-color: transparent;
+    border: 1px solid rgba(var(--dark-color));
     color:rgba(var(--dark-color));
     white-space: nowrap;
     transition: 0.2s;
