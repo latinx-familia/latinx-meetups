@@ -53,7 +53,7 @@ export default function SectionLeft() {
                                     SUGGEST A CITY
                                 </button>
                             </Link>
-                            <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
+                            <Link href="https://app.getriver.io/latinx-tech-group/events" target="_blank">
                                 <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
                                     RSVP FOR NOV 22
                                 </button>
