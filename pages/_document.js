@@ -8,11 +8,11 @@ class WebDocument extends Document {
           <meta charset="UTF-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <meta name="description" content="Worldwide community meetups for latinx VC investors and startup founders. Join the movement 👊🔥" />
+          <meta name="description" content="Let's come together to celebrate 🎂🥳" />
           <meta property="og:url" content="https://latinxmeetups.com" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Latinx Meetups" />
-          <meta property="og:description" content="Worldwide community meetups for latinx VC investors and startup founders. Join the movement 👊🔥" />
+          <meta property="og:description" content="Let's come together to celebrate 🎂🥳" />
           <meta property="og:image" content="/img/river.jpg" />
           
           <Script id="google-tag-manager" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
