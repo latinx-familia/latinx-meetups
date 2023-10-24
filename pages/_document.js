@@ -22,7 +22,7 @@ class WebDocument extends Document {
           })(window,document,'script','dataLayer','GTM-PV2RL6N2');`}}></Script>
         </Head>
         <body>
-            <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXX"
+            <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV2RL6N2"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
           <Main/>
           <NextScript />
