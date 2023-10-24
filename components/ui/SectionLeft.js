@@ -55,7 +55,7 @@ export default function SectionLeft() {
                             </Link>
                             <Link href="https://app.getriver.io/latinx-tech-group/events" target="_blank">
                                 <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
-                                    RSVP FOR NOV 22
+                                    RSVP FOR NOV 28
                                 </button>
                             </Link>
                         </div>
