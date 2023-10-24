@@ -6,7 +6,7 @@ export default function Hero () {
        <>
         <section className="hero">
                 <h1>Let&apos;s come together to celebrate 🎂🥳</h1>
-                <h2>We&apos;re hosting get-togethers all over the world to celebrate the second birthday of the Latinx Tech WhatsApp Group 🌍🚀💫</h2>
+                <h2>We&apos;re hosting get-togethers all over the world to celebrate the second birthday of the Latinx Tech WhatsApp Community 🌍🚀💫</h2>
                 
                 <div className="button-container">
                     <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
