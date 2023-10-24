@@ -5,8 +5,8 @@ export default function Hero () {
     return(
        <>
         <section className="hero">
-                <h1>Meet fellow founders and investors AFK</h1>
-                <h2>Worldwide community meetups for latinx VC investors and startup founders. Join the movement 👊🔥</h2>
+                <h1>Let&apos;s come together to celebrate 🎂🥳</h1>
+                <h2>We&apos;re hosting get-togethers all over the world to celebrate the second birthday of the Latinx Tech WhatsApp Group 🌍🚀💫</h2>
                 
                 <div className="button-container">
                     <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
