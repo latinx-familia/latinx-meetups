@@ -21,7 +21,7 @@ export default function SectionRight() {
                                     SUGGEST A CITY
                                 </button>
                             </Link>
-                            <Link href="https://app.getriver.io/latinx-tech-group/events" target="_blank">
+                            <Link href="https://app.getriver.io/v2/latinx-tech-group" target="_blank">
                                 <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
                                     RSVP FOR NOV 28
                                 </button>
