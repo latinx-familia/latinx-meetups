@@ -12,7 +12,7 @@ export default function Header () {
                     </Link>
                     <HideOn divID="toggle-navbar">
                         <div className="navmenu">
-                            <Link href="https://chat.whatsapp.com/BquU18oQxMu9m7hf8gdX5S" target="_blank">
+                            <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
                                 <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
                                     Join the WhatsApp Community
                                 </button>
@@ -21,9 +21,9 @@ export default function Header () {
                     </HideOn>
                     <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
                         <div className="navmenu">
-                            <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
+                            <Link href="https://app.getriver.io/latinx" target="_blank">
                                 <button className="scroll-btn hero-btn"><Icon icon="mdi:city" />
-                                    SIGN UP IN YOUR CITY
+                                    RSVP FOR FEB 27
                                 </button>
                             </Link>
                         </div>
