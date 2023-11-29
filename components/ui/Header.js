@@ -21,9 +21,9 @@ export default function Header () {
                     </HideOn>
                     <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
                         <div className="navmenu">
-                            <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
+                            <Link href="https://app.getriver.io/latinx" target="_blank">
                                 <button className="scroll-btn hero-btn"><Icon icon="mdi:city" />
-                                    SIGN UP IN YOUR CITY
+                                    RSVP FOR FEB 27
                                 </button>
                             </Link>
                         </div>
