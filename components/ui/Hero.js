@@ -9,7 +9,7 @@ export default function Hero () {
                 <h2>We&apos;re hosting get-togethers all over the world to celebrate the Latinx Tech Community 🌍🚀💫</h2>
                 
                 <div className="button-container">
-                    <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
+                    <Link href="https://forms.gle/S6GjZFbeLUUGkBJu5" target="_blank">
                         <button className="secondary-btn hero-btn"><Icon icon="material-symbols-light:handshake" />
                             BE AN ALLY
                         </button>
