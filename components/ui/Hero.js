@@ -6,17 +6,17 @@ export default function Hero () {
        <>
         <section className="hero">
                 <h1>Let&apos;s come together to celebrate 🎂🥳</h1>
-                <h2>We&apos;re hosting get-togethers all over the world to celebrate the second birthday of the Latinx Tech WhatsApp Community 🌍🚀💫</h2>
+                <h2>We&apos;re hosting get-togethers all over the world to celebrate the Latinx Tech Community 🌍🚀💫</h2>
                 
                 <div className="button-container">
                     <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
-                        <button className="secondary-btn hero-btn"><Icon icon="mdi:city" />
-                            SUGGEST A CITY
+                        <button className="secondary-btn hero-btn"><Icon icon="material-symbols-light:handshake" />
+                            BE AN ALLY
                         </button>
                     </Link>
                     <Link href="https://app.getriver.io/latinx" target="_blank">
                         <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
-                            RSVP FOR NOV 28
+                            RSVP FOR FEB 27
                         </button>
                     </Link>
                 </div>
