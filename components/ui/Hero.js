@@ -5,7 +5,7 @@ export default function Hero () {
     return(
        <>
         <section className="hero">
-                <h1>Let&apos;s come together to connect ❤️🫶</h1>
+                <h1>Let&apos;s come together to connect ❤️</h1>
                 <h2>We&apos;re hosting get-togethers all over the world to celebrate the Latinx Tech Community 🌍🚀💫 </h2>
                 
                 <div className="button-container">
