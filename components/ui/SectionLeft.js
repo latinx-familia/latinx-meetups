@@ -48,9 +48,9 @@ export default function SectionLeft() {
                     </div>
                     <div className="section-description content">
                         <div className="button-container">
-                            <Link href="https://forms.gle/S6GjZFbeLUUGkBJu5" target="_blank">
-                                <button className="secondary-btn hero-btn"><Icon icon="material-symbols-light:handshake" />
-                            BE AN ALLY
+                            <Link href="https://forms.gle/x1APvVMUg3WhRPX18" target="_blank">
+                                <button className="secondary-btn hero-btn"><Icon icon="mid:city" />
+                            SUGGEST A CITY
                                 </button>
                             </Link>
                             <Link href="https://app.getriver.io/latinx" target="_blank">
