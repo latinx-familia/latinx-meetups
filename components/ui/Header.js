@@ -12,9 +12,9 @@ export default function Header () {
                     </Link>
                     <HideOn divID="toggle-navbar">
                         <div className="navmenu">
-                            <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
-                                <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
-                                    Join the WhatsApp Community
+                            <Link href="https://forms.gle/S6GjZFbeLUUGkBJu5" target="_blank">
+                                <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="material-symbols-light:handshake" /> 
+                                    BE AN ALLY
                                 </button>
                             </Link>
                         </div>
