@@ -12,18 +12,18 @@ export default function Header () {
                     </Link>
                     <HideOn divID="toggle-navbar">
                         <div className="navmenu">
-                            <Link href="https://forms.gle/S6GjZFbeLUUGkBJu5" target="_blank">
-                                <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="material-symbols-light:handshake" /> 
-                                    BE AN ALLY
+                            <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
+                                <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
+                                Join the WhatsApp Community
                                 </button>
                             </Link>
                         </div>
                     </HideOn>
                     <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
                         <div className="navmenu">
-                            <Link href="https://app.getriver.io/latinx" target="_blank">
+                            <Link href="https://forms.gle/1w8h93u1m14iY3YF7" target="_blank">
                                 <button className="scroll-btn hero-btn"><Icon icon="mdi:city" />
-                                    RSVP FOR FEB 27
+                                    SIGN UP IN YOUR CITY
                                 </button>
                             </Link>
                         </div>
