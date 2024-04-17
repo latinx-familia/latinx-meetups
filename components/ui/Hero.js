@@ -16,8 +16,7 @@ export default function Hero () {
                     </Link>
                     <Link href="https://forms.gle/x1APvVMUg3WhRPX18" target="_blank">
                         <button className="scroll-btn hero-btn"><Icon icon="mdi:city" />
-        <Icon icon="mdi:check-outline" />
-                            SUGGEST A CITY
+                            SIGN UP IN YOUR CITY
                         </button>
                     </Link>
                 </div>
