@@ -53,9 +53,9 @@ export default function SectionLeft() {
                                     BE AN ALLY
                                 </button>
                             </Link>
-                            <Link href="https://forms.gle/x1APvVMUg3WhRPX18" target="_blank">
-                                <button className="scroll-btn hero-btn"><Icon icon="mdi:city" />
-                                    SIGN UP IN YOUR CITY
+                            <Link href="https://app.getriver.io/latinx" target="_blank">
+                                <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
+                                    RSVP FOR MAY 28
                                 </button>
                             </Link>
                         </div>
