@@ -11,11 +11,6 @@ export default function Header () {
                         <div className="logo"></div>
                     </Link>
                     <div className="navmenu">
-                        <Link href="https://www.paypal.com/pools/c/948ycdnaf6" target="_blank">
-                            <button className="donate-btn">
-                                DONATE
-                            </button>
-                        </Link>
                         <HideOn divID="toggle-navbar">
                             <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
                                 <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
@@ -30,6 +25,11 @@ export default function Header () {
                                 </button>
                             </Link>
                         </HideBetween>
+                        <Link href="https://www.paypal.com/pools/c/948ycdnaf6" target="_blank">
+                            <button className="donate-btn">
+                                DONATE
+                            </button>
+                        </Link>
                     </div>
                 </div>        
             </header>
