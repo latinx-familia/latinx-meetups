@@ -31,7 +31,28 @@ export default function Header () {
                             </button>
                         </Link>
                     </div>
-                </div>        
+                </div>
+                <div className="navbar-mobile" id="navbar">
+                    <HideOn divID="toggle-navbar">
+                            <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
+                                <button className="donate-mobile-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
+                                </button>
+                            </Link>
+                        </HideOn>
+                        <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
+                            <Link href="https://app.getriver.io/latinx" target="_blank">
+                                <button className="donate-mobile-btn"><Icon icon="mdi:check-outline" />
+                                </button>
+                            </Link>
+                        </HideBetween>
+                    <Link href="/">
+                        <div className="logo"></div>
+                    </Link>
+                    <Link href="https://www.paypal.com/pools/c/948ycdnaf6" target="_blank">
+                        <button className="donate-mobile-btn"><Icon icon="mdi:donation" />
+                        </button>
+                    </Link>
+                </div>
             </header>
         </>
     );
