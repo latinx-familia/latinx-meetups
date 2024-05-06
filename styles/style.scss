@@ -138,6 +138,10 @@ header {
     width: 100%;
 }
 
+.navbar-mobile {
+    display: none;
+}
+
 .logo {
     background: url("/img/logo.png") no-repeat;
     background-size:130px;
@@ -219,7 +223,7 @@ header {
     cursor: pointer;
 }
 
-.donate-btn {
+.donate-btn, .donate-mobile-btn {
     background-color: transparent;
     font-size: clamp(1rem, 1.1rem, 1.4rem);
     font-weight: 500;
@@ -563,19 +567,7 @@ footer {
 
 @media screen and (max-width: 1280px) {
 
-    header {
-    padding: 0px;
-    }
-
-    .navbar {
-        width: 130px;
-
-    .navmenu {
-        display: none;
-    }
-    }
-
-.hero {
+    .hero {
         padding-top: 50px;
     }
 
@@ -637,6 +629,21 @@ footer {
 }
 
 @media screen and (max-width: 880px) {
+
+    header {
+        padding: 0px;
+    }
+
+    .navbar-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navmenu, .navbar {
+        display: none !important;
+    }
     
     .book-btn {
         width: 94% !important;
