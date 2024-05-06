@@ -149,7 +149,8 @@ header {
 }
 
 .navmenu {
-    
+    display: flex;
+    column-gap: 30px;
     align-items: center;
     justify-content: flex-end !important;
     float:right;
@@ -218,6 +219,20 @@ header {
     cursor: pointer;
 }
 
+.donate-btn {
+    background-color: transparent;
+    font-size: clamp(1rem, 1.1rem, 1.4rem);
+    font-weight: 500;
+    border: 1px transparent;
+    font-family: 'Archivo', Helvetica, sans-serif !important;
+    text-decoration: underline;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0rem;
+    display: flex;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
 .scroll-btn {
     background-color: rgba(var(--dark-color));
     color:rgba(var(--light-color));
@@ -246,7 +261,7 @@ header {
     transition: 0.2s;
 }
 
-.secondary-btn:hover {
+.secondary-btn:hover, .donate-btn:hover {
     border: 1px transparent;
     background-color: rgba(var(--light-color));
     box-shadow: 0 0 7px rgba(var(--dark-color)),

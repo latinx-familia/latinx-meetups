@@ -10,24 +10,27 @@ export default function Header () {
                     <Link href="/">
                         <div className="logo"></div>
                     </Link>
-                    <HideOn divID="toggle-navbar">
-                        <div className="navmenu">
+                    <div className="navmenu">
+                        <Link href="https://www.paypal.com/pools/c/948ycdnaf6" target="_blank">
+                            <button className="donate-btn">
+                                DONATE
+                            </button>
+                        </Link>
+                        <HideOn divID="toggle-navbar">
                             <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
                                 <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
                                 Join the WhatsApp Community
                                 </button>
                             </Link>
-                        </div>
-                    </HideOn>
-                    <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
-                        <div className="navmenu">
+                        </HideOn>
+                        <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
                             <Link href="https://app.getriver.io/latinx" target="_blank">
                                 <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
                                     RSVP FOR MAY 28
                                 </button>
                             </Link>
-                        </div>
-                    </HideBetween>
+                        </HideBetween>
+                    </div>
                 </div>        
             </header>
         </>
