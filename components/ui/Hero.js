@@ -10,12 +10,12 @@ export default function Hero () {
                 
                 <div className="button-container">
                     <Link href="https://forms.gle/S6GjZFbeLUUGkBJu5" target="_blank">
-                        <button className="secondary-btn hero-btn"><Icon icon="material-symbols-light:handshake" />
+                        <button className="secondary-btn hero-btn" id="goto-sponsor-form"><Icon icon="material-symbols-light:handshake" />
                             BE A SPONSOR
                         </button>
                     </Link>
                     <Link href="https://app.getriver.io/latinx" target="_blank">
-                        <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
+                        <button className="scroll-btn hero-btn" id="goto-rsvp"><Icon icon="mdi:check-outline" />
                             RSVP FOR MAY 28
                         </button>
                     </Link>
