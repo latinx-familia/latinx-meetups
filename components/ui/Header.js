@@ -13,20 +13,20 @@ export default function Header () {
                     <div className="navmenu">
                         <HideOn divID="toggle-navbar">
                             <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
-                                <button className="secondary-btn hero-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
+                                <button className="secondary-btn hero-btn" id="goto-whatsapp"><Icon icon="mdi:whatsapp" /> 
                                 Join the WhatsApp Community
                                 </button>
                             </Link>
                         </HideOn>
                         <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
                             <Link href="https://app.getriver.io/latinx" target="_blank">
-                                <button className="scroll-btn hero-btn"><Icon icon="mdi:check-outline" />
+                                <button className="scroll-btn hero-btn" id="goto-rsvp"><Icon icon="mdi:check-outline" />
                                     RSVP FOR MAY 28
                                 </button>
                             </Link>
                         </HideBetween>
                         <Link href="https://www.paypal.com/pools/c/948ycdnaf6" target="_blank">
-                            <button className="donate-btn">
+                            <button className="donate-btn" id="goto-donate">
                                 DONATE
                             </button>
                         </Link>
@@ -35,13 +35,13 @@ export default function Header () {
                 <div className="navbar-mobile" id="navbar">
                     <HideOn divID="toggle-navbar">
                             <Link href="https://chat.whatsapp.com/INP8jx2vnjVLCFRBzOrOMo" target="_blank">
-                                <button className="donate-mobile-btn" id="share-boat"><Icon icon="mdi:whatsapp" /> 
+                                <button className="donate-mobile-btn" id="goto-whatsapp"><Icon icon="mdi:whatsapp" /> 
                                 </button>
                             </Link>
                         </HideOn>
                         <HideBetween div startDivID="navbar" endDivID="toggle-navbar">
                             <Link href="https://app.getriver.io/latinx" target="_blank">
-                                <button className="donate-mobile-btn"><Icon icon="mdi:check-outline" />
+                                <button className="donate-mobile-btn" id="goto-rsvp"><Icon icon="mdi:check-outline" />
                                 </button>
                             </Link>
                         </HideBetween>
@@ -49,7 +49,7 @@ export default function Header () {
                         <div className="logo"></div>
                     </Link>
                     <Link href="https://www.paypal.com/pools/c/948ycdnaf6" target="_blank">
-                        <button className="donate-mobile-btn"><Icon icon="mdi:donation" />
+                        <button className="donate-mobile-btn" id="goto-donate"><Icon icon="mdi:donation" />
                         </button>
                     </Link>
                 </div>
