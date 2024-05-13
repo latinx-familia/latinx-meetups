@@ -6,7 +6,7 @@ export default function ContactForm() {
                 <h2>Questions? Contact us today!</h2>
                 
                 <form className="contact-form"
-                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_-IOjcbda2LyMqlXIvSmgCP5uCpI5rYi_mYUlQHDeQCO4kA/formResponse">
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfRZSIjKWtcBnGUyyTjCudB8m90pvCpnT96rgguDGjrfPMKSw/formResponse">
                     <div className="form-questions">
                         <div className="personal-info">
                             <input type="text" name="entry.1948190300" placeholder="Your name" required />
