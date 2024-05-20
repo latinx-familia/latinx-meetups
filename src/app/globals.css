@@ -1,0 +1,42 @@
+/* 
+@tailwind base;
+@tailwind components;
+*/
+@tailwind utilities;
+
+/* Overwrite PicoCSS */
+
+body>footer, body>header, body>main {
+  padding-block: 0px;
+}
+
+@media (min-width: 1536px) {
+  .container {
+      max-width: 1200px;
+  }
+}
+
+/* Overwrite Tailwind */
+
+.bg-yellow-300 {
+  background-color: rgb(255 236 1);
+}
+
+.text-yellow-300 {
+  color: rgb(255 236 1);
+}
+
+/* Embla Image Slider */
+.embla {
+  overflow: hidden;
+  height: 100%;
+}
+.embla__container {
+  display: flex;
+  height: 100%;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  
+}
