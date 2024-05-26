@@ -46,7 +46,7 @@ const Hero = ({ title = null, description, buttons = [], style = 'primary' }) =>
             <div className="max-w-3xl mx-auto">
                 {title && <h1 className={`text-5xl font-bold mb-4 ${textClasses}`}>{title}</h1>}
                 {renderDescription()}
-                <div className="flex justify-center space-x-4 mt-16">
+                <div className="flex justify-center gap-4 mt-16 gap-4 flex-col md:flex-row">
                     {buttons.map((button, index) => (
                         <Link key={index} {...button} isButton={true} />
                     ))}

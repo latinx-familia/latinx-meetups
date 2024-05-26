@@ -53,7 +53,7 @@ export default function ContentSlide({ layout = 'image-content', images = [], co
             <h2 className="text-5xl font-bold mb-8 text-black">{title}</h2>
             <h3 className="text-3xl mb-6 text-neutral-800">{subtitle}</h3>
             {renderDescription()}
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-col md:flex-row">
                 {buttons.map((button, index) => (
                     <Link key={index} {...button} />
                 ))}

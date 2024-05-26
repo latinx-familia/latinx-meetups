@@ -11,15 +11,15 @@ const iconMap = {
     heart: BsHeartFill
 };
 
-export default function Link({ label, href, style = 'primary', isOutline = false, icon = null, title = '', isButton = false, newWindow = false }) {
-    const baseClass = isButton ? 'inline-flex items-center justify-center px-6 py-4 text-sm focus:outline-none rounded-none' : '';
+export default function Link({ id = null, label, href, style = 'primary', isOutline = false, icon = null, title = '', iconClassName = '', labelClassName = '', isButton = false, newWindow = false }) {
+    const baseClass = isButton ? 'flex items-center gap-2 justify-center px-6 py-4 text-sm focus:outline-none rounded-none' : '';
     const styleClass = {
-        primary: isButton ? 'bg-black hover:bg-slate-800' : 'text-black hover:text-gray-800',
-        secondary: isButton ? 'bg-yellow-300  hover:bg-yellow-200' : 'bg-yellow-500 text-yellow-300 hover:text-yellow-500',
+        primary: isButton ? 'primary-button bg-black' : 'text-black hover:text-gray-800',
+        secondary: isButton ? 'secondary-button bg-yellow-300 hover:bg-yellow-200' : 'bg-yellow-500 text-yellow-300 hover:text-yellow-500',
     };
     const styleOutlineClass = {
-        primary: isOutline ? 'bg-transparent border text-black border-black hover:bg-transparent' : 'border-none text-white',
-        secondary: isOutline ? 'bg-transparent border text-yellow-300 border-yellow-300' : 'border-none text-black',
+        primary: isOutline ? 'primary-outline bg-transparent border text-black border-black hover:bg-white hover:border-white' : 'border-none text-white',
+        secondary: isOutline ? 'secondary-outline bg-transparent border text-yellow-300 border-yellow-300' : 'border-none text-black',
     };
 
     const className = `${baseClass} ${styleClass[style]} ${styleOutlineClass[style]}`;
@@ -27,19 +27,21 @@ export default function Link({ label, href, style = 'primary', isOutline = false
 
     return (
         <NextLink 
+            id={id}
             href={href}
             className={className}
             role={isButton ? 'button': ''}
             title={title}
             target={newWindow ? '_blank' : '_self'}
             rel={newWindow ? 'noopener noreferrer' : ''}>
-                {icon && <span className="mr-2"><IconComponent size="1.2rem" /></span>}
-                {label}
+                {icon && <span className={iconClassName}><IconComponent size="1.2rem" /></span>}
+                <span className={labelClassName}>{label}</span>
         </NextLink>
     );
 }
 
 Link.propTypes = {
+    id: PropTypes.string,
     label: PropTypes.string.isRequired,
     href: PropTypes.string.isRequired,
     style: PropTypes.oneOf(['primary', 'secondary']),
@@ -47,4 +49,6 @@ Link.propTypes = {
     icon: PropTypes.oneOf(['arrowLeft', 'arrowRight', 'whatsapp', 'check', 'heart']),
     isButton: PropTypes.bool,
     newWindow: PropTypes.bool,
+    iconClassName: PropTypes.string,
+    labelClassName: PropTypes.string,
 };

@@ -5,6 +5,34 @@
 @tailwind utilities;
 
 /* Overwrite PicoCSS */
+:root {
+  --pico-nav-link-spacing-vertical: 1rem;
+  --pico-nav-link-spacing-horizontal: 1.5rem;
+}
+
+a[role=button] {
+  display: inline-flex;
+  transition: all 0.1s linear;
+}
+
+a:hover[role=button].primary-button {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 1), 0 0 1rem rgba(255, 255, 255, 1), 0 0 1.5rem rgba(255, 255, 255, 1);
+  transition: all 0.1s linear;
+  box-shadow: 0 0 1rem rgba(0, 0,0, 0.2);
+}
+
+a:hover[role="button"].secondary-button {
+  box-shadow: #FFF 0 0 3rem;
+}
+
+a:hover[role="button"].primary-button.primary-outline {
+  box-shadow: 0 0 1rem rgba(0, 0,0, 0.2);
+}
+
+nav li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 
 body>footer, body>header, body>main {
   padding-block: 0px;
