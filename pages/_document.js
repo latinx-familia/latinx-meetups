@@ -13,7 +13,7 @@ class WebDocument extends Document {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Latinx Meetups" />
           <meta property="og:description" content="Let's come together to celebrate 🎂🥳" />
-          <meta property="og:image" content="/img/river.jpg" />
+          <meta property="og:image" content="/img/MexicoMay28.jpeg" />
           
           <Script id="google-tag-manager" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
