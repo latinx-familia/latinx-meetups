@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Icon } from '@iconify/react';
-import Image from "next/legacy/image"
 
 export default function Hero () {
     return(
