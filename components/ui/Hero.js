@@ -13,7 +13,7 @@ export default function Hero () {
                             BE A SUPPORTER
                         </button>
                     </Link>
-                    <Link href="https://app.getriver.io/latinx?pastEvents=truehttps://www.linkedin.com/search/results/content/?keywords=Latinx&mentionsOrganization=%5B%2288964791%22%5D&origin=GLOBAL_SEARCH_HEADER&sid=*wv&sortBy=%22date_posted%22" target="_blank">
+                    <Link href="https://www.linkedin.com/search/results/content/?keywords=latinx&mentionsOrganization=%5B%2288964791%22%5D&origin=FACETED_SEARCH&sid=9N2&sortBy=%22date_posted%22" target="_blank">
                         <button className="scroll-btn hero-btn" id="goto-rsvp"><Icon icon="mdi:check-outline" />
                             MAY 28 IN SOCIAL MEDIA
                         </button>
