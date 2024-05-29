@@ -21,9 +21,9 @@ export default function SectionRight() {
                                     BE A SPONSOR
                                 </button>
                             </Link>
-                            <Link href="https://app.getriver.io/latinx" target="_blank">
+                            <Link href="https://www.linkedin.com/search/results/content/?keywords=latinx&mentionsOrganization=%5B%2288964791%22%5D&origin=FACETED_SEARCH&sid=9N2&sortBy=%22date_posted%22" target="_blank">
                                 <button className="scroll-btn hero-btn" id="goto-rsvp"><Icon icon="mdi:check-outline" />
-                                    RSVP FOR MAY 28
+                                    MAY 28 IN SOCIAL MEDIA
                                 </button>
                             </Link>
                         </div>
