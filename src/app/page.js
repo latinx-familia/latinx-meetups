@@ -3,11 +3,11 @@ import ContentSlide from '@/components/ContentSlide'
 import ContactForm from '@/components/ContactForm'
 
 const hero = {
-  title: 'Let\'s come together to connect ❤️',
-  description: 'We\'re hosting get-togethers all over the world on May 28, 2024, to celebrate the Latinx Tech Community 🌍🚀💫',
+  title: 'Gracias por la Magia de Latinx ❤️',
+  description: 'On May 28, 2024, we celebrated the Latinx Meetups worldwide for the third time. Thank you to you all for making it happen. Let\'s see you again on August, 27th.',
   buttons: [
     { label: 'BE A SPONSOR', href: 'https://forms.gle/S6GjZFbeLUUGkBJu5', title: 'Sponsor Lantinx Community', isButton: 'true', icon: 'heart', isOutline: true, newWindow: true },
-    { label: 'RSVP FOR MAY 28', href: 'https://app.getriver.io/latinx', title: 'Latinx Meetup May 28, 2024 ', isButton: 'true', icon: 'check', newWindow: true },
+    { label: 'MAY 28 ON SOCIAL MEDIA', href: 'https://www.linkedin.com/search/results/content/?keywords=latinx&mentionsOrganization=%5B%2288964791%22%5D&origin=FACETED_SEARCH&sid=9N2&sortBy=%22date_posted%22', title: 'Latinx Meetup May 28, 2024 ', isButton: 'true', icon: 'check', newWindow: true },
   ],
 };
 
@@ -37,7 +37,7 @@ const slide1 = {
     description: ['The magic of attending a Latinx meetup is that people come together to listen, connect, and grow. No one wants to impress anyone. Not needing to pitch is the ultimate flex.', 'Latinx founders supporting each other to thrive.'],
     buttons: [
       { label: 'BE A SPONSOR', href: 'https://forms.gle/S6GjZFbeLUUGkBJu5', title: 'Sponsor Lantinx Community', isButton: 'true', icon: 'heart', isOutline: true, newWindow: true },
-      { label: 'RSVP FOR MAY 28', href: 'https://app.getriver.io/latinx', title: 'Latinx Meetup May 28, 2024 ', isButton: 'true', icon: 'check', newWindow: true },
+      { label: 'MAY 28 ON SOCIAL MEDIA', href: 'https://www.linkedin.com/search/results/content/?keywords=latinx&mentionsOrganization=%5B%2288964791%22%5D&origin=FACETED_SEARCH&sid=9N2&sortBy=%22date_posted%22', title: 'Latinx Meetup May 28, 2024 ', isButton: 'true', icon: 'check', newWindow: true },
     ],
   },
 };
@@ -59,7 +59,7 @@ const slide2 = {
     des: '',
     buttons: [
       { label: 'BE A SPONSOR', href: 'https://forms.gle/S6GjZFbeLUUGkBJu5', title: 'Sponsor Lantinx Community', isButton: 'true', icon: 'heart', isOutline: true, newWindow: true },
-      { label: 'RSVP FOR MAY 28', href: 'https://app.getriver.io/latinx', title: 'Latinx Meetup May 28, 2024 ', isButton: 'true', icon: 'check', newWindow: true },
+      { label: 'MAY 28 ON SOCIAL MEDIA', href: 'https://www.linkedin.com/search/results/content/?keywords=latinx&mentionsOrganization=%5B%2288964791%22%5D&origin=FACETED_SEARCH&sid=9N2&sortBy=%22date_posted%22', title: 'Latinx Meetup May 28, 2024 ', isButton: 'true', icon: 'check', newWindow: true },
     ],
   },
 };

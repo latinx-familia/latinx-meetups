@@ -47,7 +47,7 @@ export default function Header({ }) {
                         )}
                         {showHeaderWhatsAppLink && (
                             <li className="mt-1.5">
-                                <Link label="RSVP FOR MAY 28" icon="check" href="https://app.getriver.io/latinx" title="Latinx Meetup May 28, 2024 " isButton={true} newWindow={true} labelClassName="hidden md:inline-block" iconClassName="md:hidden" />
+                                <Link label="MAY 28 ON SOCIAL MEDIA" icon="check" href="https://www.linkedin.com/search/results/content/?keywords=latinx&mentionsOrganization=%5B%2288964791%22%5D&origin=FACETED_SEARCH&sid=9N2&sortBy=%22date_posted%22" title="Latinx Meetup May 28, 2024 " isButton={true} newWindow={true} labelClassName="hidden md:inline-block" iconClassName="md:hidden" />
                             </li>
                         )}
                         <li className="md:order-1">
