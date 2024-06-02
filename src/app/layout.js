@@ -17,7 +17,7 @@ export const metadata = {
     type: "website",
     title: "Latinx Meetups",
     description: "Let's come together to celebrate 🎂🥳",
-    images: "/img/river.jpg",
+    images: "/img/MexicoMay28.jpeg",
   },
 };
 
