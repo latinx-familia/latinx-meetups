@@ -56,7 +56,7 @@ export default function Header({ }) {
                             </NextLink>
                         </li>
                         <li className="md:order-2 mt-1.5">
-                            <Link label="Donate" href="https://www.paypal.com/pools/c/948ycdnaf6" icon="heart" isButton={true} newWindow={true} title="Donate to Latinx Tech Group" labelClassName="hidden md:inline-block" iconClassName="md:hidden" />
+                            <Link label="Donate" href="https://www.paypal.com/pools/c/948ycdnaf6" icon="heart" newWindow={true} title="Donate to Latinx Tech Group" labelClassName="hidden md:inline-block" style="contrast" iconClassName="md:hidden" />
                         </li>
                     </ul>
                 </nav>
